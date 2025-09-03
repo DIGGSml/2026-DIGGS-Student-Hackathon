@@ -1,4 +1,4 @@
-# 2026 DIGGS Hackathon 🌍⚒️
+# 2026 DIGGS Student Hackathon 🌍⚒️
 
 ## Welcome to the DIGGS Data Innovation Challenge!
 
