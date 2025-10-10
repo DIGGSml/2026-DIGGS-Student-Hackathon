@@ -3,7 +3,7 @@
 ## Welcome to the DIGGS Data Innovation Challenge!
 
 
-##Register Here! [https://www.geoinstitute.org/special-projects/diggs](https://docs.google.com/forms/d/e/1FAIpQLSeITiAO227eQMIfVcVyok6AzkfcBbUBhKPjUGsNpS34GVFqxQ/viewform?usp=header)
+## Register Here! [https://www.geoinstitute.org/special-projects/diggs](https://docs.google.com/forms/d/e/1FAIpQLSeITiAO227eQMIfVcVyok6AzkfcBbUBhKPjUGsNpS34GVFqxQ/viewform?usp=header)
 
 ### 🎯 Mission
 Build innovative solutions using the DIGGS (Data Interchange for Geotechnical and Geoenvironmental Specialists) standard to transform how we work with geotechnical data.
