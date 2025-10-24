@@ -69,6 +69,7 @@ Learn more at [Geo-Institute DIGGS Project](https://www.geoinstitute.org/special
 
 - Teams can be any size (solo participants welcome!)
 - Use any programming language or framework
+- Code must be open-sourced to the DIGGS GitHub after the competition
 - Solutions must utilize DIGGS data in a meaningful way
 - Focus on innovation, practicality, and user experience
 - Have fun and learn something new!
