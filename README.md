@@ -27,7 +27,7 @@ Create stunning visualizations of geotechnical data. Think interactive bore logs
 ### 3. 🔧 Direct Design/Interpretation
 Develop tools that use DIGGS data for engineering analysis, design recommendations, or automated interpretations.
 
-### 4. 🔧 Data Transformation
+### 4. 🔄  Data Transformation
 Unlock siloed geotechnical data by converting between formats. Ingest legacy files, proprietary exports, and unstructured PDFs into standardized DIGGS—or export to downstream tools like GIS and CAD.
 
 ### 5. 🌐 Cross-Discipline Integration
