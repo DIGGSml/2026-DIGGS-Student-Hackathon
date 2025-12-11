@@ -31,7 +31,7 @@ Develop tools that use DIGGS data for engineering analysis, design recommendatio
 Unlock siloed geotechnical data by converting between formats. Ingest legacy files, proprietary exports, and unstructured PDFs into standardized DIGGS—or export to downstream tools like GIS and CAD.
 
 ### 5. 🌐 Cross-Discipline Integration
-Connect DIGGS data with other engineering disciplines. Bridge geotechnical data with structural, environmental, or transportation engineering.
+Connect DIGGS data with other engineering disciplines.
 
 ## 📁 Repository Structure
 
