@@ -27,7 +27,10 @@ Create stunning visualizations of geotechnical data. Think interactive bore logs
 ### 3. 🔧 Direct Design/Interpretation
 Develop tools that use DIGGS data for engineering analysis, design recommendations, or automated interpretations.
 
-### 4. 🌐 Cross-Discipline Integration
+### 4. 🌐 Data Transformation
+Unlock siloed geotechnical data by converting between formats. Ingest legacy files, proprietary exports, and unstructured PDFs into standardized DIGGS—or export to downstream tools like GIS and CAD.
+
+### 5. 🌐 Cross-Discipline Integration
 Connect DIGGS data with other engineering disciplines. Bridge geotechnical data with structural, environmental, or transportation engineering.
 
 ## 📁 Repository Structure
@@ -93,6 +96,8 @@ Projects should include:
 ## 🏅 Awards & Recognition
 
 - **Winners Announced**: At Geo-Congress 2026 in Salt Lake City
+- **Dinner** on Sunday March 8th 2026
+- **Presentations** on Monday March 9th 2026
 - **Categories**: TBA (likely based on challenge themes)
 - **Recognition**: Present your solution to the geotechnical community!
 
