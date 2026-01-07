@@ -34,7 +34,6 @@ Unlock siloed geotechnical data by converting between formats. Ingest legacy fil
 Connect DIGGS data with other engineering disciplines.
 
 ## 📁 Repository Structure
-
 ```
 /
 ├── README.md (this file)
@@ -54,7 +53,8 @@ Connect DIGGS data with other engineering disciplines.
 1. **Choose Your Theme**: Pick one or combine multiple themes
 2. **Review Resources**: Check out the `/resources` folders
 3. **Access Data**: Starting January 5, explore the DIGGS files and SQLite database
-4. **Build Something Amazing**: Time to get DIGGSing!
+4. **Need More Data?**: Download additional DIGGS files from [Geosetta.org](https://geosetta.org) or request larger datasets from the Geosetta team
+5. **Build Something Amazing**: Time to get DIGGSing!
 
 See [GETTING_STARTED.md](GETTING_STARTED.md) for detailed setup instructions.
 
@@ -79,10 +79,11 @@ Learn more at [Geo-Institute DIGGS Project](https://www.geoinstitute.org/special
 
 ## 🤝 Support & Resources
 
-- **Weekly Office Hours**: Every week with the DIGGS Team (schedule TBA)
+- **Weekly Office Hours**: Thursdays at 2 PM ET via Microsoft Teams
 - **Documentation**: See `/resources/documentation`
 - **DIGGS Specification**: Available in `/resources`
 - **Community**: Join our discussions and Q&A sessions
+- **Additional Data**: Download DIGGS files from [Geosetta.org](https://geosetta.org) or contact the Geosetta team to request larger datasets for your project
 
 ## 📝 Submission Guidelines
 
