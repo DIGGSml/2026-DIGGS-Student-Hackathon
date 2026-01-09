@@ -1,0 +1,11 @@
+requests
+pandas
+geojson
+openpyxl
+plotly
+lxml
+netCDF4
+xarray
+matplotlib
+ipykernel
+jupyter
