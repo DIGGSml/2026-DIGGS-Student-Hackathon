@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Home | DIGGS 2.6 Converter{% endblock %}
+
+{% block content %}
+<section class="hero-section">
+    <h1 class="hero-title">Transform Geotechnical Data<br>Into Industry Standard</h1>
+    <p class="hero-subtitle">
+        Seamlessly convert PDF Borehole Logs into valid <strong>DIGGS 2.6 XML</strong> format.
+        Automated extraction, mapping, and schema validation in one click.
+    </p>
+    <div class="hero-actions">
+        <a href="{{ url_for('converter') }}" class="btn-primary">Start Converting Now</a>
+        <a href="{{ url_for('about') }}" class="btn-secondary">Learn More</a>
+    </div>
+</section>
+
+<section class="features-grid">
+    <div class="feature-card">
+        <div class="feature-icon">🚀</div>
+        <h3>Fast Extraction</h3>
+        <p>Advanced PDF parsing algorithms extract lithology and metadata in seconds.</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">🛡️</div>
+        <h3>Strict Validation</h3>
+        <p>Built-in validation against the official DIGGS 2.6 XSD Schema.</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon">💎</div>
+        <h3>Premium UI</h3>
+        <p>A modern, glassmorphism interface designed for professionals.</p>
+    </div>
+</section>
+{% endblock %}

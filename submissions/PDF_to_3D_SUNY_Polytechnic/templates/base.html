@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}DIGGS 2.6 Converter{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Google Fonts: Outfit for Headers, JetBrains Mono for Code -->
+    <!-- font-display=swap ensures text is visible even when offline -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap"
+            rel="stylesheet">
+    </noscript>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="{{ url_for('home') }}" class="nav-logo">DIGGS<span class="highlight">2.6</span></a>
+            <ul class="nav-links">
+                <li><a href="{{ url_for('home') }}"
+                        class="{% if request.endpoint == 'home' %}active{% endif %}">Home</a></li>
+                <li><a href="{{ url_for('converter') }}"
+                        class="{% if request.endpoint == 'converter' %}active{% endif %}">Converter</a></li>
+                <li><a href="{{ url_for('about') }}"
+                        class="{% if request.endpoint == 'about' %}active{% endif %}">About</a></li>
+                <li><a href="{{ url_for('visualize') }}"
+                        class="{% if request.endpoint == 'visualize' %}active{% endif %}">3D Visualize</a></li>
+                <li><a href="{{ url_for('contact') }}"
+                        class="{% if request.endpoint == 'contact' %}active{% endif %}">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+        <p>&copy; 2026 DIGGS Hackathon Team. Built with integrity.</p>
+    </footer>
+
+    {% block scripts %}{% endblock %}
+</body>
+
+</html>

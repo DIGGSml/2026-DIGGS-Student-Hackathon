@@ -1,0 +1,16 @@
+# Core web & parsing
+flask
+pdfplumber
+lxml
+werkzeug
+
+# Excel generation
+openpyxl
+
+# 3D visualization
+plotly
+pandas
+numpy
+
+# Word document generation
+python-docx

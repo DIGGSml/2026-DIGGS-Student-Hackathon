@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}About | DIGGS 2.6 Converter{% endblock %}
+
+{% block content %}
+<section class="content-section">
+    <div class="text-block">
+        <h1>About the Project</h1>
+        <p>
+            The <strong>DIGGS 2.6 Converter</strong> was developed for the 2026 DIGGS Hackathon.
+            Our mission is to bridge the gap between legacy PDF borehole logs and the modern data interchange standard,
+            <strong>Data Interchange for Geotechnical and Geoenvironmental Specialists (DIGGS)</strong>.
+        </p>
+    </div>
+
+    <div class="info-grid">
+        <div class="info-card">
+            <h3>What is DIGGS?</h3>
+            <p>
+                DIGGS is an XML-based schema for the transfer of geotechnical and geoenvironmental data.
+                It allows for the seamless exchange of data between different software packages and organizations.
+            </p>
+        </div>
+        <div class="info-card">
+            <h3>Version 2.6</h3>
+            <p>
+                This tool specifically targets DIGGS version 2.6, ensuring compliance with the commonly used
+                standards in the industry today.
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}
