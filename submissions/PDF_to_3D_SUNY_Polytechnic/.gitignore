@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Generated outputs (runtime artifacts)
+output/
+intermediate/
+Files/uploads/
+
+# Presentation files (too large for git — submit separately)
+*.pptx
+
+# Debug / temp files
+debug_*.txt
+test_results.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.user
+.gemini/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Contact | DIGGS 2.6 Converter{% endblock %}
+
+{% block content %}
+<section class="content-section center-content">
+    <h1>Get in Touch</h1>
+    <p class="subtitle">Have questions or feedback? Reach out to the development team.</p>
+
+    <div class="contact-card">
+        <form class="contact-form">
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com">
+            </div>
+            <div class="form-group">
+                <label>Message</label>
+                <textarea rows="5" placeholder="How can we help?"></textarea>
+            </div>
+            <button type="button" class="btn-primary full-width">Send Message</button>
+        </form>
+    </div>
+</section>
+{% endblock %}

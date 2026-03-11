@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+{% block title %}3D Soil Visualization | DIGGS 2.6 Converter{% endblock %}
+
+{% block content %}
+<section class="content-section">
+    <div class="converter-header">
+        <h1>3D Soil Profile Viewer</h1>
+        <p class="subtitle">Interactive visualization of borehole soil layers — rotate, zoom, hover for details</p>
+    </div>
+
+    <!-- Tab Switcher -->
+    <div style="display:flex;gap:1rem;justify-content:center;margin-bottom:1.5rem;">
+        <button id="tab-grid" onclick="showTab('grid')" style="padding:10px 28px;border-radius:24px;border:1.5px solid rgba(139,92,246,0.5);
+                       background:rgba(139,92,246,0.2);color:#a78bfa;font-weight:700;cursor:pointer;
+                       font-size:0.9rem;transition:all 0.2s;">
+            🗂 Borehole Grid
+        </button>
+        <button id="tab-section" onclick="showTab('section')" style="padding:10px 28px;border-radius:24px;border:1.5px solid rgba(99,102,241,0.35);
+                       background:transparent;color:#818cf8;font-weight:600;cursor:pointer;
+                       font-size:0.9rem;transition:all 0.2s;">
+            🌍 Cross-Section Profile
+        </button>
+    </div>
+
+    <!-- Borehole Grid iframe -->
+    <div id="pane-grid" style="border-radius:16px;overflow:hidden;border:1px solid rgba(139,92,246,0.25);
+                                box-shadow:0 8px 32px rgba(0,0,0,0.4);">
+        <iframe id="iframe-grid" src="/plot/3d_borehole_grid" width="100%" height="680"
+            style="border:none;display:block;" loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- Cross-Section iframe (hidden by default) -->
+    <div id="pane-section" style="border-radius:16px;overflow:hidden;border:1px solid rgba(99,102,241,0.25);
+                                   box-shadow:0 8px 32px rgba(0,0,0,0.4);display:none;">
+        <iframe id="iframe-section" src="/plot/3d_cross_section" width="100%" height="680"
+            style="border:none;display:block;" loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- Info row -->
+    <div style="display:flex;gap:1rem;margin-top:1.5rem;flex-wrap:wrap;">
+        <div style="flex:1;min-width:200px;padding:1.2rem 1.5rem;border-radius:12px;
+                    background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+            <div style="color:#94a3b8;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em;">Color Key</div>
+            <div style="display:flex;gap:0.75rem;margin-top:0.75rem;flex-wrap:wrap;">
+                <span style="display:flex;align-items:center;gap:6px;font-size:0.85rem;">
+                    <span
+                        style="width:14px;height:14px;border-radius:3px;background:#F4A460;display:inline-block;"></span>Sand
+                </span>
+                <span style="display:flex;align-items:center;gap:6px;font-size:0.85rem;">
+                    <span
+                        style="width:14px;height:14px;border-radius:3px;background:#D2B48C;display:inline-block;"></span>Silt
+                </span>
+                <span style="display:flex;align-items:center;gap:6px;font-size:0.85rem;">
+                    <span
+                        style="width:14px;height:14px;border-radius:3px;background:#A0522D;display:inline-block;"></span>Clay
+                </span>
+                <span style="display:flex;align-items:center;gap:6px;font-size:0.85rem;">
+                    <span
+                        style="width:14px;height:14px;border-radius:3px;background:#808080;display:inline-block;"></span>Rock
+                </span>
+            </div>
+        </div>
+        <div style="flex:1;min-width:200px;padding:1.2rem 1.5rem;border-radius:12px;
+                    background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);">
+            <div style="color:#94a3b8;font-size:0.78rem;text-transform:uppercase;letter-spacing:0.1em;">Controls</div>
+            <div style="margin-top:0.75rem;font-size:0.85rem;color:#cbd5e1;line-height:1.8;">
+                🖱 <b>Drag</b> to rotate &nbsp;•&nbsp;
+                🔍 <b>Scroll</b> to zoom &nbsp;•&nbsp;
+                🖱 <b>Right-drag</b> to pan &nbsp;•&nbsp;
+                📍 <b>Hover</b> for layer details
+            </div>
+        </div>
+        <div style="flex:0 0 auto;padding:1.2rem 1.5rem;border-radius:12px;
+                    background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);
+                    display:flex;flex-direction:column;justify-content:center;gap:0.6rem;">
+            <a href="/download-master" style="padding:9px 20px;border-radius:20px;text-decoration:none;
+               background:rgba(34,197,94,0.15);border:1.5px solid rgba(34,197,94,0.4);color:#4ade80;
+               font-size:0.85rem;font-weight:600;text-align:center;white-space:nowrap;">
+                📊 Download Master Excel
+            </a>
+            <a href="/converter" style="padding:9px 20px;border-radius:20px;text-decoration:none;
+               background:rgba(139,92,246,0.12);border:1.5px solid rgba(139,92,246,0.35);color:#a78bfa;
+               font-size:0.85rem;font-weight:600;text-align:center;white-space:nowrap;">
+                ← Convert Another PDF
+            </a>
+            <button onclick="resetMaster()" style="padding:9px 20px;border-radius:20px;border:1.5px solid rgba(239,68,68,0.4);
+                           background:rgba(239,68,68,0.12);color:#f87171;font-size:0.85rem;font-weight:600;
+                           cursor:pointer;white-space:nowrap;transition:all 0.2s;"
+                onmouseover="this.style.background='rgba(239,68,68,0.25)'"
+                onmouseout="this.style.background='rgba(239,68,68,0.12)'">
+                🗑 Reset All Data
+            </button>
+        </div>
+    </div>
+</section>
+
+<script>
+    function showTab(tab) {
+        const gridPane = document.getElementById('pane-grid');
+        const sectionPane = document.getElementById('pane-section');
+        const tabGrid = document.getElementById('tab-grid');
+        const tabSection = document.getElementById('tab-section');
+
+        if (tab === 'grid') {
+            gridPane.style.display = 'block';
+            sectionPane.style.display = 'none';
+            tabGrid.style.background = 'rgba(139,92,246,0.2)';
+            tabGrid.style.borderColor = 'rgba(139,92,246,0.5)';
+            tabGrid.style.fontWeight = '700';
+            tabSection.style.background = 'transparent';
+            tabSection.style.borderColor = 'rgba(99,102,241,0.35)';
+            tabSection.style.fontWeight = '600';
+        } else {
+            gridPane.style.display = 'none';
+            sectionPane.style.display = 'block';
+            tabSection.style.background = 'rgba(99,102,241,0.2)';
+            tabSection.style.borderColor = 'rgba(99,102,241,0.5)';
+            tabSection.style.fontWeight = '700';
+            tabGrid.style.background = 'transparent';
+            tabGrid.style.borderColor = 'rgba(139,92,246,0.35)';
+            tabGrid.style.fontWeight = '600';
+        }
+    }
+
+    function resetMaster() {
+        if (!confirm('⚠️ This will clear ALL converted borehole data and reset the 3D plots to the sample data.\n\nAre you sure you want to start fresh?')) return;
+
+        fetch('/reset-master', { method: 'POST' })
+            .then(r => r.json())
+            .then(data => {
+                if (data.status === 'reset') {
+                    const t = Date.now();   // cache-buster
+                    const g = document.getElementById('iframe-grid');
+                    const s = document.getElementById('iframe-section');
+                    if (g) g.src = '/plot/3d_borehole_grid?t=' + t;
+                    if (s) s.src = '/plot/3d_cross_section?t=' + t;
+                    alert('✅ All data cleared! The system is now a blank slate.\nConvert new PDFs to populate with fresh borehole data.');
+                }
+            })
+            .catch(() => alert('Reset failed — check that the server is running.'));
+    }
+</script>
+{% endblock %}
