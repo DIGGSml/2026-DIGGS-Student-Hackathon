@@ -1,0 +1,1129 @@
+{
+  "file": "/Users/yiping/Desktop/Yipin/DarahSan/DIGGS_Student_Hackathon_large.XML",
+  "summary": {
+    "borehole_count": 168,
+    "spt_count": 92,
+    "cpt_count": 16,
+    "unique_spt_ids": 92,
+    "unique_cpt_ids": 16,
+    "spt_sampling_method_refs": 91,
+    "note": "SPT is counted by SamplingActivity IDs containing 'SPT'; CPT is counted by StaticConePenetrationTest tags."
+  },
+  "category_counts": {
+    "other": 616585,
+    "borehole": 168,
+    "cpt": 16
+  },
+  "tag_dictionary": [
+    {
+      "tag": "Property",
+      "count": 37126,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "propertyName",
+      "count": 37126,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "typeData",
+      "count": 37126,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "propertyClass",
+      "count": 37126,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "name",
+      "count": 32382,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "projectRef",
+      "count": 18094,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "uom",
+      "count": 17169,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "location",
+      "count": 15716,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "investigationTarget",
+      "count": 14357,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "samplingFeatureRef",
+      "count": 14341,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "PointLocation",
+      "count": 10710,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "pos",
+      "count": 10710,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "measurement",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Test",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "outcome",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "TestResult",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "results",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "ResultSet",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "parameters",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "PropertyParameters",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "properties",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "dataValues",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "procedure",
+      "count": 10578,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "description",
+      "count": 9277,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "specimen",
+      "count": 9263,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "SoilSpecimen",
+      "count": 9263,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "sampleRef",
+      "count": 9263,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "posList",
+      "count": 9024,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "LinearExtent",
+      "count": 9008,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Remark",
+      "count": 6831,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "content",
+      "count": 6831,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "remark",
+      "count": 6830,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "SpecimenConditions",
+      "count": 5648,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Specification",
+      "count": 3840,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "internalIdentifier",
+      "count": 3738,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "samplingActivity",
+      "count": 3595,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "SamplingActivity",
+      "count": 3595,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "samplingLocation",
+      "count": 3595,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "activityType",
+      "count": 3595,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "samplingMethod",
+      "count": 3595,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "sampleProduced",
+      "count": 3569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "SampleProduced",
+      "count": 3569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "sample",
+      "count": 3569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Sample",
+      "count": 3569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "samplingActivityRef",
+      "count": 3569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "sampleProducedRef",
+      "count": 3569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "AtterbergLimitsTest",
+      "count": 2944,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "percentRetainedNo40",
+      "count": 2944,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "LabDensityTest",
+      "count": 2828,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "conditionPreTest",
+      "count": 2824,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "conditionPostTest",
+      "count": 2824,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "TriaxialTest",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "triaxialTestType",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "trial",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "TriaxialTestTrial",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "specimenRef",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "shearStage",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "TriaxialTestShearStage",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "modeOfFailure",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "totalCellPressureDuringShearStage",
+      "count": 2806,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "abundanceCode",
+      "count": 1792,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "color",
+      "count": 1571,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Color",
+      "count": 1571,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "colorName",
+      "count": 1571,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "colorComponents",
+      "count": 1571,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "ColorComponents",
+      "count": 1571,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "hue",
+      "count": 1571,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "lithologyObservation",
+      "count": 1569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "LithologyObservation",
+      "count": 1569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "trueBaseObserved",
+      "count": 1569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "primaryLithology",
+      "count": 1569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Lithology",
+      "count": 1569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "lithProperties",
+      "count": 1569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "LithProperties",
+      "count": 1569,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "lithDescription",
+      "count": 1566,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "legendCode",
+      "count": 1563,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "unitName",
+      "count": 1506,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "PocketPenetrometerTest",
+      "count": 1208,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "consistency",
+      "count": 1081,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "classificationCode",
+      "count": 982,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "matrixType",
+      "count": 982,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "diameter",
+      "count": 923,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "height",
+      "count": 923,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "constructionMethod",
+      "count": 672,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "BusinessAssociate",
+      "count": 496,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "role",
+      "count": 495,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Role",
+      "count": 495,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "rolePerformed",
+      "count": 495,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "businessAssociate",
+      "count": 495,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "preface",
+      "count": 396,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "gradingData",
+      "count": 378,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Grading",
+      "count": 378,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "particleSize",
+      "count": 378,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "percentPassing",
+      "count": 378,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "ParticleSizeTest",
+      "count": 358,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "sieveAnalysis",
+      "count": 358,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "SieveAnalysis",
+      "count": 358,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "hydrometer",
+      "count": 358,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Hydrometer",
+      "count": 358,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Equipment",
+      "count": 352,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "status",
+      "count": 336,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "BoreholeConstructionMethod",
+      "count": 336,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "shortMethodName",
+      "count": 336,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "constructionEquipment",
+      "count": 336,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "class",
+      "count": 336,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "WaterContentTest",
+      "count": 309,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "driveSet",
+      "count": 273,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "DriveSet",
+      "count": 273,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "index",
+      "count": 273,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "blowCount",
+      "count": 273,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "penetration",
+      "count": 273,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "constituent",
+      "count": 221,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Constituent",
+      "count": 221,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "codeValue",
+      "count": 221,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "modifier",
+      "count": 208,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "samplingFeature",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "referencePoint",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "centerLine",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "linearReferencing",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "LinearSpatialReferenceSystem",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "identifier",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "linearElement",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "lrm",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "LinearReferencingMethod",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "type",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "units",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "totalMeasuredDepth",
+      "count": 184,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "whenConstructed",
+      "count": 181,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "TimeInterval",
+      "count": 181,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "start",
+      "count": 181,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "end",
+      "count": 181,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Borehole",
+      "count": 168,
+      "category": "borehole",
+      "rule": "exact:borehole"
+    },
+    {
+      "tag": "boreholeType",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "waterStrike",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "WaterStrike",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "waterStrikeReadings",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "WaterStrikeReading",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "dateTime",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "observation",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "LithologySystem",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "lithologyClassificationType",
+      "count": 168,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "locality",
+      "count": 119,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Locality",
+      "count": 119,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "station",
+      "count": 118,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "offset",
+      "count": 118,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "offsetDirection",
+      "count": 118,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "notEncountered",
+      "count": 113,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "intensity",
+      "count": 100,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "DrivenPenetrationTest",
+      "count": 91,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "penetrationTestType",
+      "count": 91,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "hammerType",
+      "count": 91,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "totalPenetration",
+      "count": 91,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "waterLocation",
+      "count": 55,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "nullValue",
+      "count": 48,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "hammerEfficiency",
+      "count": 29,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "ConsolidationTest",
+      "count": 18,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "consolidationTestType",
+      "count": 18,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Sounding",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "MultiPointLocation",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "StaticConePenetrationTest",
+      "count": 16,
+      "category": "cpt",
+      "rule": "exact:cpt_test_tag"
+    },
+    {
+      "tag": "testProcedureEquipment",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "modelNumber",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "serialNumber",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "testEvent",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "InSituTestEvent",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "infoRecorded",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Parameter",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "parameterName",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "parameterValue",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "parameterUnits",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "penetrometerType",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "distanceTipToSleeve",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "netAreaRatioCorrection",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "penetrationRate",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "tipArea",
+      "count": 16,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Diggs",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "documentInformation",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "DocumentInformation",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "creationDate",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "author",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "disclaimer",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "auditTrail",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "remarkDateTime",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "project",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    },
+    {
+      "tag": "Project",
+      "count": 1,
+      "category": "other",
+      "rule": "default"
+    }
+  ]
+}

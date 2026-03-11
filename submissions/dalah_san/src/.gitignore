@@ -1,0 +1,9 @@
+feedback_credentials.json
+tools/_geosetta_out/
+data/geosetta_index.sqlite
+data/geosetta_index.sqlite-wal
+data/geosetta_index.sqlite-shm
+__pycache__/
+venv/
+.idea/
+

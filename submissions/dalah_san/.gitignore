@@ -1,0 +1,11 @@
+# Dependencies & env
+venv/
+.idea/
+__pycache__/
+*.pyc
+.DS_Store
+# macOS resource forks
+._*
+# Optional: uncomment to exclude large DIGGS XML (e.g. if >100MB)
+# *.XML
+# .diggs_cache/

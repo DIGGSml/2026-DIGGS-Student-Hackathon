@@ -1,0 +1,10 @@
+Flask
+requests
+google-auth
+google-api-python-client
+urllib3==1.26.18
+numpy
+pandas
+matplotlib
+XlsxWriter
+openpyxl

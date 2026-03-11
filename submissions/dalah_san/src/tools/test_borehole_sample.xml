@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BoreholeData>
+  <Borehole id="BH-1">
+    <SPT_Tests>
+      <Test>
+        <Depth>1.5</Depth>
+        <SPT-N>8</SPT-N>
+      </Test>
+      <Test>
+        <Depth>3.0</Depth>
+        <SPT-N>12</SPT-N>
+      </Test>
+      <Test>
+        <Depth>4.5</Depth>
+        <SPT-N>18</SPT-N>
+      </Test>
+      <Test>
+        <Depth>6.0</Depth>
+        <SPT-N>22</SPT-N>
+      </Test>
+    </SPT_Tests>
+    <Lithology>
+      <Layer>
+        <TopDepth>0</TopDepth>
+        <BottomDepth>2.0</BottomDepth>
+        <SoilType>CL</SoilType>
+        <PI>12</PI>
+        <FC>35</FC>
+      </Layer>
+      <Layer>
+        <TopDepth>2.0</TopDepth>
+        <BottomDepth>4.0</BottomDepth>
+        <SoilType>SM</SoilType>
+        <PI>NP</PI>
+        <FC>18</FC>
+      </Layer>
+      <Layer>
+        <TopDepth>4.0</TopDepth>
+        <BottomDepth>6.5</BottomDepth>
+        <SoilType>SP-SM</SoilType>
+        <PI>NP</PI>
+        <FC>8</FC>
+      </Layer>
+    </Lithology>
+  </Borehole>
+</BoreholeData>
