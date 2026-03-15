@@ -35,11 +35,8 @@
 			<role>
 				<Role>
 					<rolePerformed codeSpace="https://diggsml.org/def/codes/DIGGS/0.1/roles.xml#project_engineer">Project Engineer</rolePerformed>
-					<businessAssociate>
-						<BusinessAssociate gml:id="DGS580F-13A1-448-9671-31258">
-							<gml:name/>
-						</BusinessAssociate>
-					</businessAssociate>
+					<businessAssociate xlink:href="#DGSA163-164C-480-F11E-262B8"/>
+					
 				</Role>
 			</role>
 			<!-- can't do this because of codelists 2025
